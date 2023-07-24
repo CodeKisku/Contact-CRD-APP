@@ -1,17 +1,35 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+# Svelte-CRD-APP
+Demo Link - https://contact-svelte.netlify.app/
 
----
+This is a simple CRUD (Create, Read, Delete) application built with Svelte JS. It allows you to create, edit and delete a contact with a name and an email field.
 
+## Features
+
+- Add new contact/s with a name and an email
+- Delete contact/s
+- Store notes in local storage
+
+## Technologies
+
+- Svelte JS: A modern JavaScript compiler that allows you to write easy-to-understand JavaScript code that is then compiled to highly efficient code that runs in the browser.
+
+## Installation
+
+To run this project locally, you need to have Node.js and npm installed on your machine. Then follow these steps:
+
+1. Clone this repository: `git clone https://github.com/CodeKisku/Svelte-CRD-APP.git`
+2. Navigate to the project directory: `cd Svelte-CRD-APP`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to http://localhost:5000
+
+## References
+
+- [Building A CRUD Application with Svelte](https://codesource.io/building-a-crud-application-with-svelte/)
+- [Simple CRUD app with Svelte JS](https://dev.to/miteshkamat27/simple-crud-app-with-svelte-js-k3g)
+
+-----------------------------------------------------------------------------------------------------------
 # svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
