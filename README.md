@@ -1,13 +1,30 @@
-# Svelte-CRD-APP
-Demo Link - https://contact-svelte.netlify.app/
-
+# Svelte CRD APP
 This is a simple CRUD (Create, Read, Delete) application built with Svelte JS. It allows you to create, edit and delete a contact with a name and an email field.
+
+## How to use
+
+You can clone this repository or download it as a zip file. Then, run the following commands in your terminal:
+
+```bash
+cd svelte-app
+npm install
+npm run dev
+```
+
+This will start a local server on port 5000. You can then open http://localhost:5000 in your browser. You can also view the live demo of the app by clicking [here](https://contact-svelte.netlify.app/).
 
 ## Features
 
-- Add new contact/s with a name and an email
-- Delete contact/s
-- Store notes in local storage
+- Svelte components
+- Reactive variables and statements
+- Event handling and binding
+- Local storage
+
+## Use Cases
+
+- Add new contact with a name and an email
+- Delete contact
+- Store contact details in local storage
 
 ## Technologies
 
